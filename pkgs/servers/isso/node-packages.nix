@@ -256,6 +256,15 @@ let
         sha1 = "30a0b2da38f73770e8294a0d22e6625ed77d0097";
       };
     };
+    "markmap-0.6.1" = {
+      name = "markmap";
+      packageNem = "markmap";
+      version = "0.6.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/markmap/-/markmap-0.6.1.tgz";
+        sha512 = "a63969fe7022b10f3f6313e15bb8be7838ed32551017a46bdbbab3b7e122498518cd8164abd1c4287b28d4a80946871ec4b6a1aabdbe40ed2e9970e21a47c83e";
+      };
+    };
     "minimist-1.2.5" = {
       name = "minimist";
       packageName = "minimist";
